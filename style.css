@@ -35,9 +35,15 @@ body {
   right: 10px;
 }
 
-@media (max-height: 500px) {
-  body {
-    min-height: 800px;
+@media (max-height: 900px) {
+  .page-title {
+    font-size: 40px;
+  }  
+}
+
+@media (max-height: 400px) {
+  .page-title {
+    font-size: 40px;
   }
 }
 
